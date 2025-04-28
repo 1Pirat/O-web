@@ -167,3 +167,59 @@
       line-height: 24px;
     }
   }
+
+/* Для телефонов 320px */
+  @media screen and (max-width: 320px) {
+    .reviews {
+      margin: 0px 20px;
+      padding: 60px 0;
+    }
+  
+    .reviews-block {
+      padding: 0px 20px;
+      margin-bottom: 40px;
+    }
+  
+    .reviews-block-title {
+      font-size: 28px;
+      line-height: 33.6px;
+      margin-bottom: 16px;
+    }
+  
+    .reviews-block-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .cards5 {
+      gap: 20px;
+    }
+  
+    .card5 {
+      padding: 20px;
+      min-height: 280px;
+    }
+  
+    .card5-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .card5-name {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .card5-post {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .stars {
+      margin-bottom: 20px;
+    }
+  
+    .card5-bottom {
+      gap: 12px;
+    }
+  }
