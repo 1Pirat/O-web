@@ -183,3 +183,68 @@
     height: 50px;
     gap: 24px;
 }
+
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .houses {
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .houses-block {
+        margin: 80px 40px 0;
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+
+    .houses-block-title {
+        width: 100%;
+        margin: 0;
+    }
+
+    .houses-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .houses-block-store {
+        width: 100%;
+    }
+
+    .cards3 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    .card3 {
+        max-height: none;
+    }
+
+    .card3-info {
+        width: auto;
+        margin: 20px;
+    }
+
+    .name-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .price-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .houses-bottom-decoration,
+    .houses-top-decoration {
+        width: 80px;
+    }
+
+    .houses-bottom-panel {
+        width: 100%;
+    }
+}
