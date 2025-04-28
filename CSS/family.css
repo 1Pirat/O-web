@@ -125,3 +125,56 @@
       width: 28px;
     }
   }
+
+
+  /* для телефонов 320px */
+  @media screen and (max-width: 320px) {
+    .family {
+      margin: 0 20px;
+      border-radius: 16px;
+    }
+  
+    .family-rectangle {
+      height: 120px;
+      margin-top: -122px;
+    }
+  
+    .family-block {
+      padding: 40px 20px;
+    }
+  
+    .family-h2 {
+      font-size: 28px;
+      line-height: 33.6px;
+      margin-bottom: 16px;
+    }
+  
+    .family-text {
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 16px;
+    }
+  
+    .mini-rectangle3 {
+      width: 36px;
+      margin-bottom: 8px;
+    }
+  
+    .family-restroom {
+      font-size: 24px;
+      line-height: 36px;
+      width: 24px;
+    }
+  
+    .family-button {
+      width: 100%;
+      max-width: 280px;
+      height: 44px;
+      padding: 10px 20px;
+    }
+  
+    .family-button-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
