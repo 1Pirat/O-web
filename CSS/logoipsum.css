@@ -51,3 +51,26 @@
       max-width: 120px;
     }
   }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .logoipsum {
+      margin: 0 20px;
+      padding-top: 30px;
+      gap: 24px;
+    }
+  
+    .logoipsum-text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .logoipsum-panel {
+      gap: 20px;
+      flex-direction: column;
+    }
+  
+    .logoipsum-panel img {
+      max-width: 100px;
+    }
+  }
