@@ -144,3 +144,52 @@
       margin: 0 0 24px 24px;
     }
   }
+
+/* Для телефонов 320px */
+  @media screen and (max-width: 320px) {
+    .locations-block {
+      margin: 0 20px;
+      padding-bottom: 60px;
+    }
+  
+    .locations-title {
+      margin-bottom: 30px;
+    }
+  
+    .locations-h2 {
+      font-size: 28px;
+      line-height: 33.6px;
+      margin-bottom: 16px;
+    }
+  
+    .locations-title-text {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 10px;
+    }
+  
+    .cards4 {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .card4 {
+      height: 110px;
+    }
+  
+    .locations-text {
+      font-size: 16px;
+      line-height: 22.4px;
+      margin: 20px 0 6px 20px;
+    }
+  
+    .view-properties {
+      margin: 0 0 20px 20px;
+    }
+  
+    .view-properties-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
