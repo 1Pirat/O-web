@@ -87,3 +87,41 @@
     display: inline-block;
 }
 
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .family {
+      margin: 0 40px;
+    }
+  
+    .family-rectangle {
+      height: 180px;
+      margin-top: -182px;
+    }
+  
+    .family-block {
+      padding: 64px 80px;
+    }
+  
+    .family-h2 {
+      font-size: 36px;
+      line-height: 43.2px;
+      margin-bottom: 24px;
+    }
+  
+    .family-text {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 18px;
+    }
+  
+    .mini-rectangle3 {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+  
+    .family-restroom {
+      font-size: 28px;
+      line-height: 40px;
+      width: 28px;
+    }
+  }
