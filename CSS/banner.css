@@ -42,3 +42,23 @@
         transform: translateY(-50%);
     }
 }
+
+/* Для телефонов 320px */
+@media (max-width: 480px) {
+    .banner {
+        justify-content: center !important;
+        gap: 8px !important; /* Расстояние между текстом и крестиком */
+    }
+
+    .banner img {
+        position: static !important; /* Отмена абсолютного позиционирования */
+        transform: none !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .banner-text {
+        padding-right: 0 !important;
+        white-space: nowrap !important; /* Текст в одну строку */
+    }
+}
