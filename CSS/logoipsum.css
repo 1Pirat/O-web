@@ -1,0 +1,26 @@
+.logoipsum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+    padding-top: 62px;
+}
+
+.logoipsum-text {
+    width: 243px;
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Roboto;
+    color: #2a2c1f;
+    text-align: left;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.logoipsum-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+}

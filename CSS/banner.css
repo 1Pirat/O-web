@@ -1,0 +1,22 @@
+.banner-rectangle {
+    background-color: #939878;
+    height: 40px;
+    width: 100%;
+    position: relative; 
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4px;
+    margin: 0 40px;
+}
+
+.banner-text {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 548px;
+}
