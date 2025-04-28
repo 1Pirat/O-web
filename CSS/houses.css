@@ -248,3 +248,76 @@
         width: 100%;
     }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .houses {
+        margin-top: 60px;
+    }
+
+    .houses-block {
+        margin: 60px 20px 0;
+        gap: 30px;
+        padding-bottom: 60px;
+    }
+
+    .houses-properties {
+        width: auto;
+        margin-bottom: 16px;
+    }
+
+    .houses-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .cards3 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .card3-info {
+        margin: 16px;
+    }
+
+    .name-text {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .price-text {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+
+    .card3-bottom-info {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .icon-number {
+        gap: 8px;
+    }
+
+    .text2 {
+        font-size: 14px;
+    }
+
+    .houses-bottom-decoration,
+    .houses-top-decoration {
+        width: 60px;
+    }
+
+    .houses-bottom-panel {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .explore-properties,
+    .contact-agent {
+        width: 100%;
+    }
+}
