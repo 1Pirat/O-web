@@ -158,3 +158,49 @@
         width: 120px;
     }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .best-house {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .comfort-first {
+        width: auto;
+        max-width: 107px;
+        margin-bottom: 16px;
+    }
+
+    .best-house-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+        margin-bottom: 16px;
+    }
+
+    .best-house_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bottom-panel {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .explore-properties {
+        width: 100%;
+    }
+
+    .contact-agent {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+    }
+
+    .best-house_16-24 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
