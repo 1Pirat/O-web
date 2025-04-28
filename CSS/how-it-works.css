@@ -116,3 +116,54 @@
     display: inline-block;
     margin-bottom: 17px;
 }
+
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .how-it-works {
+        margin: 80px 40px 0;
+        gap: 40px;
+    }
+
+    .how-it-works-block {
+        width: 100%;
+        max-width: 600px;
+        padding: 0;
+    }
+
+    .how-it-works-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+    }
+
+    .how-it-works-text_18-27 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 20px;
+    }
+
+    .cards1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .how-it-works-text_24-33 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
