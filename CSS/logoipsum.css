@@ -24,3 +24,30 @@
     flex-direction: row;
     gap: 32px;
 }
+
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .logoipsum {
+      margin: 0 40px;
+      padding-top: 40px;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+    }
+  
+    .logoipsum-text {
+      width: 100%;
+      text-align: center;
+      padding-top: 0;
+    }
+  
+    .logoipsum-panel {
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .logoipsum-panel img {
+      max-width: 120px;
+    }
+  }
