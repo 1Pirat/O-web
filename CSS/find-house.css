@@ -160,3 +160,43 @@
         display: none;
     }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .section1-block-info {
+        margin: 40px 20px;
+    }
+
+    .section1-h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .section1-text_20-30,
+    .section1-text_20-30-white {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section1-panel {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .search-rectangle {
+        width: 100%;
+    }
+
+    .section1-red-rectangle {
+        width: 100%;
+    }
+
+    .find-place-rectangle {
+        width: auto;
+        max-width: 171px;
+    }
+
+    .image1 {
+        height: 200px;
+    }
+}
