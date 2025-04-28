@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css"> 
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/find-house.css">
+    <link rel="stylesheet" href="styles/logoipsum.css">
+    <link rel="stylesheet" href="styles/how-it-works.css">
+    <link rel="stylesheet" href="styles/best-house.css">
+    <link rel="stylesheet" href="styles/fast-forward.css">
+    <link rel="stylesheet" href="styles/houses.css">
+    <link rel="stylesheet" href="styles/locations.css">
+    <link rel="stylesheet" href="styles/family.css">
+    <link rel="stylesheet" href="styles/reviews.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material Icons:wght@400&display=swap" />
+    <title>Realco</title>
+</head>
+<body>
+
+    <div class="banner-rectangle">
+        <div class="banner">
+            <div class="banner-text">Get your dream house in a week.</div>
+            <img src="Images/Cross.png" alt="cross">
+        </div>
+    </div>
+
+    <header>
+        <nav class="nav">
+            
+            <article class="nav-article">
+                <img src="Images/logo.svg" alt="logo">
+                <div class="nav-panel">
+                    <div class="nav-panel_1">
+                        <button class="home-button">
+                            <p class="nav-text">Home</p>
+                        </button>
+                        <button class="properties-button">
+                            <div class="nav-properties">
+                                <p class="nav-text">Properties</p>
+                                <p class="expand-more">expand_more</p>
+                            </div>
+                        </button>
+                        <button class="about-button">
+                            <p class="nav-text">About</p>
+                        </button>
+                        <button class="contact-button">
+                            <p class="nav-text">Contact</p>
+                        </button>
+                        <button class="search-button">
+                            <div class=nav-search>
+                                <p class="search">search</p>
+                                <p class="nav-text">Search</p>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="nav-panel_2">
+                        <button class="cart-button">
+                            <div class="nav-cart">
+                                <p class="shopping-bag">shopping_bag</p>
+                                <p class="nav-text">Cart</p>
+                            </div>
+                        </button>
+                        <button class="find-a-property-button">
+                            <p class="nav-text-white">Find a property</p>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <article class="section1-article">
+                <img src="Images/stairs.svg" alt="decoration" class="decoration">
+                <div class="section1-block-info">
+                    <div class="find-place-rectangle">
+                        <p class="section1-text_14-21">Find your dream place</p>
+                    </div>
+
+                    <h2 class="section1-h2">Find house for your family in minutes</h2>
+                    <div class="section1-text_20-30">Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.</div>
+                    <div class="section1-panel">
+
+                        <div class="search-rectangle">
+                            <img src="Images/search.svg" alt="Search">
+                            <div class="section1-text_20-30">Search</div>
+                        </div>
+
+                        <div class="section1-red-rectangle">
+                            <div class="section1-text_20-30-white">Find property</div>
+                        </div>
+                    </div>
+                </div>
+                <img src="Images/stairs-bottom.svg" alt="decoration-bottom" class="decoration-bottom">
+            </article>
+            <img src="Images/Image1.png" alt="Image" class="image1">
+        </section>
+
+        <section class="logoipsum">
+            <div class="logoipsum-text">As seen on the world's best magazines and media</div>
+            <article class="logoipsum-panel">
+                <img src="Images/logoipsum1.svg" alt="logoipsum">
+                <img src="Images/logoipsum2.svg" alt="logoipsum">
+                <img src="Images/logoipsum3.svg" alt="logoipsum">
+                <img src="Images/logoipsum4.svg" alt="logoipsum">
+                <img src="Images/logoipsum5.svg" alt="logoipsum">
+            </article>
+        </section>
+
+        <section class="how-it-works">
+            <article class="how-it-works-block">
+                <h2 class="how-it-works-h2">How it works</h2>
+                <div class="how-it-works-text_18-27">Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque. Maecenas varius felis felis.</div>
+            </article>
+            <article class="cards1">
+                <div class="card1">
+                    <div class="mini-rectangle">
+                        <div class="house">house</div>
+                    </div>
+                    <div class="how-it-works-text_24-33">Find property</div>
+                    <div class="how-it-works-text-1_16-24">Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non.</div>
+                </div>
+
+                <div class="card1">
+                    <div class="mini-rectangle">
+                        <div class="receipt">receipt</div>
+                    </div>
+                    <div class="how-it-works-text_24-33">Make a deal</div>
+                    <div class="how-it-works-text_16-24">Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi sollicitudin orci, sagittis facilisis odio tortor ac mi.</div>
+                </div>
+
+                <div class="card1">
+                    <div class="mini-rectangle">
+                        <div class="key">key</div>
+                    </div>
+                    <div class="how-it-works-text_24-33">Get your keys</div>
+                    <div class="how-it-works-text_16-24">Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis semper, metus vitae fermentum consequat.</div>
+                </div>
+            </article>
+        </section>
+
+        <section class="best-house">
+            <article class="best-house-block">
+                <div class="comfort-first">
+                    <p class="best-house_14-21">Comfort first</p>
+                </div>
+                <h2 class="best-house-h2">The best houses for family comfort</h2>
+                <p class="best-house_18-27">Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere blandit.</p>
+                <div class="bottom-panel">
+                    <div class="explore-properties">
+                        <p class="best-house_16-24">Explore properties</p>
+                    </div>
+                    <div class="contact-agent">
+                        <p class="best-house_16-24">Contact agent</p>
+                        <p class="chevron-right">chevron_right</p>
+                    </div>
+                </div>
+            </article>
+            <img src="Images/Image2.png" alt="Image" class="image2">
+        </section>
+
+        <section class="fast-forward">
+            <img src="Images/Image3.png" alt="Image" class="image3">
+            <article class="fast-forward-block">
+                <div class="quick-and-easy">
+                    <p class="fast-forward_14-21">Quick and easy</p>
+                </div>
+                <h2 class="fast-forward-h2">Fast forward process</h2>
+                <p class="fast-forward_18-27">Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi arcu praesent nec felis nisl.</p>
+                <div class="cards2">
+                    <div class="card2">
+                        <div class="mini-rectangle2">
+                            <p class="payments">payments</p>
+                        </div>
+                        <p class="fast-forward_20-28">Affordable prices</p>
+                        <p class="fast-forward_16-24-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    </div>
+
+                    <div class="card2">
+                        <div class="mini-rectangle2">
+                            <p class="description">description</p>
+                        </div>
+                        <p class="fast-forward_20-28">Less paper work</p>
+                        <p class="fast-forward_16-24-2">Curabitur porta luctus semper donec eget lobortis leo ac finibus nisi.</p>
+                    </div>
+                </div>
+                <div class="bottom-panel">
+                    <div class="explore-properties">
+                        <p class="best-house_16-24">Explore properties</p>
+                    </div>
+                    <div class="contact-agent">
+                        <p class="best-house_16-24">Contact agent</p>
+                        <p class="chevron-right">chevron_right</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="houses">
+            <img src="Images/house-bottom-decoration.svg" alt="Decoration bottom" class="houses-bottom-decoration">
+            <article class="houses-block">
+                <div class="houses-block-title">
+                    <div class="houses-properties">
+                        <p class="fast-forward_14-21">Properties</p>
+                    </div>
+                    <h2 class="houses-h2">Houses in your favorite area</h2>
+                </div>
+
+                <div class="houses-block-store">
+                    <div class="cards3">
+                        <div class="card3">
+                            <img src="Images/House1.png" alt="House1">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">Cozy studio in Los Angeles</p>
+                                        <p class="price-text">$ 1,200.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">2263 Southlea, Los Angeles</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">840 sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card3">
+                            <img src="Images/House2.png" alt="House2">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">Tiny home in San Diego</p>
+                                        <p class="price-text">$ 740,000.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">2569 El Segundo, San Diego</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">1</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">400 sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card3">
+                            <img src="Images/House3.png" alt="House3">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">Crown house in New York</p>
+                                        <p class="price-text">$ 980,000.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">4489 Smity Fielda, New York</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">4</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">3200    sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card3">
+                            <img src="Images/House4.png" alt="House4">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">Family house in Los Angeles</p>
+                                        <p class="price-text">$ 4,200.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">2263 Southlea, Los Angeles</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">3</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">1400 sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card3">
+                            <img src="Images/House5.png" alt="House5">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">Studio in Las Vegas</p>
+                                        <p class="price-text">$ 820,000.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">2569 Halls Corner, Las Vegas</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">3</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">2400 sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card3">
+                            <img src="Images/House6.png" alt="House6">
+                            <div class="card3-info">
+                                <div class="card3-top-info">
+                                    <div class="name-price">
+                                        <p class="name-text">San Diego story</p>
+                                        <p class="price-text">$ 3,700.00 USD</p>
+                                    </div>
+                                    <div class="location">
+                                        <p class="place">place</p>
+                                        <p class="text2">2569 El Segundo, San Diego</p>
+                                    </div>
+                                </div>
+                                <div class="card3-bottom-info">
+                                    <div class="icon-number">
+                                        <p class="bathtub">bathtub</p>
+                                        <p class="text2">1</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="bed">bed</p>
+                                        <p class="text2">2</p>
+                                    </div>
+                                    <div class="icon-number">
+                                        <p class="square-foot">square_foot</p>
+                                        <p class="text2">650 sqft</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="bottom-panel-wrapper">
+                        <div class="houses-bottom-panel">
+                            <div class="explore-properties">
+                                <p class="best-house_16-24">Explore properties</p>
+                            </div>
+                            <div class="contact-agent">
+                                <p class="best-house_16-24">Contact agent</p>
+                                <p class="chevron-right">chevron_right</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <img src="Images/house-top-decoration.svg" alt="Decoration top" class="houses-top-decoration">
+        </section>
+
+        <section class="locations">
+            <div class="locations-block">
+                <article class="locations-title">
+                    <h2 class="locations-h2">Locations</h2>
+                    <p class="locations-title-text">Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non nisl sit amet.</p>
+                </article>
+                
+                <article class="cards4">
+                    <div class="card4">
+                        <p class="locations-text">San Francisco, CA</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <p class="locations-text">Los Angeles, CA</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <p class="locations-text">San Diego, CA</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <p class="locations-text">New York, NY</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <p class="locations-text">Las Vegas, NV</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+
+                    <div class="card4">
+                        <p class="locations-text">Miami, FL</p>
+                        <div class="view-properties">
+                            <p class="view-properties-text">View Properties</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bottom-panel-wrapper">
+                    <div class="houses-bottom-panel">
+                        <div class="explore-properties">
+                            <p class="best-house_16-24">Explore properties</p>
+                        </div>
+                        <div class="contact-agent">
+                            <p class="best-house_16-24">Contact agent</p>
+                            <p class="chevron-right">chevron_right</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="family">
+            <article class="family-rectangle"></article>
+            <article class="family-block">
+                <div class="mini-rectangle3">
+                    <p class="family-restroom">family_restroom</p>
+                </div>
+                <h2 class="family-h2">Families are our priority</h2>
+                <p class="family-text">Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel arcu. In non consectetur lorem. Morbi non varius sapien suscipit mauri.</p>
+                <button class="family-button">
+                    <p class="family-button-text">Get started</p>
+                </button>
+            </article>
+        </section>
+
+        <section class="reviews">
+            <article class="reviews-block">
+                <h2 class="reviews-block-title">What customers say</h2>
+                <p class="reviews-block-text">Faucibus orci luctus et ultrices posuere cubilia curae.</p>
+            </article>
+            <article class="cards5">
+                <div class="card5">
+                    <div class="card5-top">
+                        <div class="stars">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                        </div>
+                        <p class="card5-text">"Aliquam erat volutpat. Nulla pretium nec urna et convallis. Ut varius mi lacus, nec molestie libero ultricies nec. Aenean lacinia dui elit, ut gravida quam."</p>
+                    </div>
+                    <div class="card5-bottom">
+                        <img src="Images/person1.png" alt="person1">
+                        <div class="card5-person-info">
+                            <p class="card5-name">Michael Webb</p>
+                            <p class="card5-post">Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card5">
+                    <div class="card5-top">
+                        <div class="stars">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                        </div>
+                        <p class="card5-text">"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per <br> inceptos himenaeos. Morbi pretium iaculis ultricies. Aenean in leo vitae <br> tortor."</p>
+                    </div>
+                    <div class="card5-bottom">
+                        <img src="Images/person2.png" alt="person2">
+                        <div class="card5-person-info">
+                            <p class="card5-name">Amber Keene</p>
+                            <p class="card5-post">Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card5">
+                    <div class="card5-top">
+                        <div class="stars">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                            <img src="Images/star.svg" alt="star">
+                        </div>
+                        <p class="card5-text">"Condimentum viverra orci. Pellentesque suscipit odio nisl, non ultricies purus mattis eget. In placerat, lorem a sodales ullamcorper, eros nibh laoreet nisl."</p>
+                    </div>
+                    <div class="card5-bottom">
+                        <img src="Images/person3.png" alt="person3" class="sarah-tarleton">
+                        <div class="card5-sarah-tarleton-info">
+                            <p class="card5-name">Sarah Tarleton</p>
+                            <p class="card5-post">Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <article class="footer-top">
+            <div class="footer-top-block">
+                <div class="footer-left">
+                    <img src="Images/logo.svg" alt="logo" class="footer-logo">
+                    <div class="column1">
+                        <div class="column-block">
+                            <p class="footer-column-text-class">Pages</p>
+                            <p class="footer-column-text">Home</p>
+                            <p class="footer-column-text">About</p>
+                            <p class="footer-column-text">Blog</p>
+                            <p class="footer-column-text">Agents</p>
+                            <p class="footer-column-text">Contact</p>
+                            <p class="footer-column-text">FAQs</p>
+                            <p class="footer-column-text">Properties</p>
+                        </div>
+                    </div>
+
+                    <div class="column2">
+                        <div class="column-block">
+                            <p class="footer-column-text-class">CMS Pages</p>
+                            <p class="footer-column-text">Property</p>
+                            <p class="footer-column-text">Property Single</p>
+                            <p class="footer-column-text">Blog Categories</p>
+                            <p class="footer-column-text">Blog Single</p>
+                            <p class="footer-column-text">Agent Single</p>
+                        </div>
+                    </div>
+
+                    <div class="column3">
+                        <div class="column-block">
+                            <p class="footer-column-text-class">Utility Pages</p>
+                            <p class="footer-column-text">Style Guide</p>
+                            <p class="footer-column-text">Changelog</p>
+                            <p class="footer-column-text">Licenses</p>
+                            <p class="footer-column-text">404</p>
+                            <p class="footer-column-text">Password</p>
+                            <p class="footer-column-text">Search</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <p class="footer-right-text-class">Subscribe</p>
+                    <p class="footer-right-text">Join our newsletter to stay up to date on features and releases.</p>
+                    <div class="fotter-right-panel">
+                        <div class="footer-panel">
+                            <div class="email">
+                                <p class="email-text">Enter your email</p>
+                            </div>
+                            <button class="subscribe">
+                                <p class="subscribe-text">Subscribe</p>
+                            </button>
+                        </div>
+                        <div class="footer-right-text-div">
+                            <p class="footer-right-text_12-18">By subscribing you agree to with our</p>
+                            <p class="footer-right-text_12-18-right"> Privacy Policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="footer-bottom">
+            <div class="footer-bottom-block">
+                <div class="footer-bottom-info">
+                    <p class="footer-bottom-text">© Realco by</p>
+                    <p class="minimal-square">Minimal Square.</p>
+                </div>
+                <div class="footer-bottom-socials">
+                    <img src="Images/social1.svg" alt="FaceBook">
+                    <img src="Images/social2.svg" alt="Instagram">
+                    <img src="Images/social3.svg" alt="Twitter">
+                    <img src="Images/social4.svg" alt="In">
+                </div>
+            </div>
+        </article>
+    </footer>
+</body>
+</html>
