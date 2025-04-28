@@ -173,3 +173,59 @@
     width: 16px;
     margin: 0;
 }
+
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .fast-forward {
+        flex-direction: column;
+        margin: 80px 40px 0;
+        gap: 40px;
+    }
+
+    .fast-forward-block {
+        width: 100%;
+    }
+
+    .image3 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fast-forward-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+        margin: 0 0 24px 0;
+        white-space: normal;
+    }
+
+    .fast-forward_18-27 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .cards2 {
+        gap: 20px;
+        margin-bottom: 24px;
+    }
+
+    .fast-forward_16-24-1,
+    .fast-forward_16-24-2 {
+        width: auto;
+        margin: 0 0 16px 0;
+    }
+
+    .bottom-panel {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .explore-properties {
+        width: 160px;
+    }
+
+    .contact-agent {
+        width: 120px;
+    }
+}
