@@ -210,3 +210,36 @@
         padding: 0 16px;
     }
 }
+
+/* Для телефонов 320px */
+@media (max-width: 480px) {
+    .nav {
+        height: 56px;
+    }
+
+    .nav-article {
+        gap: 20px;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+
+    .nav-article img {
+        width: 70px;
+        margin-right: auto;
+    }
+
+    .nav-panel {
+        margin-left: auto;
+        flex-grow: 0;
+    }
+
+    .nav-panel_1,
+    .cart-button {
+        display: none;
+    }
+
+    .find-a-property-button {
+        width: 140px;
+        margin-left: 10px; 
+    }
+}
