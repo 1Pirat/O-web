@@ -148,3 +148,65 @@
     font-size: 16px;
     height: 42px;
 }
+
+/* Для планшетов 768px */
+@media (max-width: 768px) {
+    .properties-button,
+    .contact-button,
+    .search-button,
+    .nav-properties,
+    .nav-search {
+        display: none;
+    }
+
+    .nav-article {
+        margin: 0 24px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .nav-panel {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        gap: 24px;
+        width: auto;
+    }
+
+    .nav-panel_1 {
+        display: flex;
+        gap: 24px;
+        padding-left: 0 ;
+        order: 1;
+    }
+
+    .nav-panel_2 {
+        display: flex;
+        gap: 12px;
+        order: 2;
+    }
+
+    .nav-text, 
+    .nav-text-white {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .home-button,
+    .about-button {
+        min-width: auto;
+        padding: 0 8px;
+    }
+
+    .cart-button {
+        width: auto;
+        padding: 0 12px;
+    }
+
+    .find-a-property-button {
+        width: auto;
+        padding: 0 16px;
+    }
+}
