@@ -229,3 +229,79 @@
         width: 120px;
     }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .fast-forward {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .quick-and-easy {
+        width: auto;
+        max-width: 127px;
+        margin-bottom: 16px;
+    }
+
+    .fast-forward-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+        margin-bottom: 16px;
+    }
+
+    .fast-forward_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cards2 {
+        flex-direction: column;
+        gap: 24px;
+        padding: 0;
+    }
+
+    .card2 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .mini-rectangle2 {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .payments, .description {
+        font-size: 24px;
+        line-height: 36px;
+        width: 24px;
+    }
+
+    .fast-forward_20-28 {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-bottom: 12px;
+    }
+
+    .fast-forward_16-24-1,
+    .fast-forward_16-24-2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bottom-panel {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .explore-properties {
+        width: 100%;
+    }
+
+    .contact-agent {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+    }
+}
