@@ -113,3 +113,50 @@
   	box-sizing: border-box;
   	height: 50px;
 }
+
+/* Для планшетов 768px */
+@media screen and (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1-article {
+        max-width: 100%;
+        order: 2;
+    }
+
+    .image1 {
+        max-width: 100%;
+        order: 1;
+        height: 300px;
+    }
+
+    .section1-block-info {
+        margin: 60px 40px;
+        padding-right: 0;
+    }
+
+    .section1-h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .section1-text_20-30,
+    .section1-text_20-30-white {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .section1-panel {
+        max-width: 100%;
+    }
+
+    .search-rectangle {
+        width: calc(100% - 154px);
+    }
+
+    .decoration,
+    .decoration-bottom {
+        display: none;
+    }
+}
