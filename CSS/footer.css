@@ -302,3 +302,82 @@
     margin: 24px 40px;
   }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+  .footer-top {
+    margin: 32px 0px;
+  }
+
+  .footer-top-block {
+    gap: 32px;
+    margin: 0px 20px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    padding-right: 0;
+  }
+
+  .footer-column-text-class {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .footer-column-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .footer-right-text-class {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .footer-right-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .email-text {
+    font-size: 14px;
+  }
+
+  .subscribe-text {
+    font-size: 14px;
+  }
+
+  .footer-right-text_12-18,
+  .footer-right-text_12-18-right {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .footer-bottom {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer-bottom-block {
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 20px;
+    align-items: center;
+  }
+
+  .footer-bottom-text,
+  .minimal-square {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .footer-bottom-socials {
+    gap: 8px;
+  }
+}
