@@ -20,3 +20,25 @@
     line-height: 21px;
     margin-left: 548px;
 }
+
+/* Для планшетов 768px */
+@media (max-width: 768px) {
+    .banner {
+        justify-content: center !important; /* Центрируем содержимое */
+        position: relative; /* Для позиционирования крестика */
+        padding-top: 10px;
+    }
+
+    .banner-text {
+        margin-left: 0 !important; /* Убираем левый отступ */
+        padding-right: 30px; /* Отступ от крестика */
+        text-align: center; /* Центр текста */
+    }
+
+    .banner img {
+        position: absolute; /* Крестик поверх контента */
+        right: 16px; /* Позиция справа */
+        top: 50%; /* Вертикальное центрирование */
+        transform: translateY(-50%);
+    }
+}
