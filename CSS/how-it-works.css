@@ -167,3 +167,58 @@
         line-height: 28px;
     }
 }
+
+/* Для телефонов 320px */
+@media screen and (max-width: 320px) {
+    .how-it-works {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .how-it-works-block {
+        gap: 16px;
+    }
+
+    .how-it-works-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .how-it-works-text_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cards1 {
+        gap: 20px;
+    }
+
+    .card1 {
+        padding: 30px 16px;
+    }
+
+    .mini-rectangle {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+
+    .house, .receipt, .key {
+        font-size: 24px;
+        line-height: 36px;
+        width: 24px;
+    }
+
+    .how-it-works-text_24-33 {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-bottom: 12px;
+    }
+
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0 16px;
+    }
+}
