@@ -246,6 +246,7 @@
 
     .houses-bottom-panel {
         width: 100%;
+        padding-right: 75px;
     }
 }
 
