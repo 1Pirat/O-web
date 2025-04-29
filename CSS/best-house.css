@@ -148,6 +148,7 @@
     .bottom-panel {
         width: 100%;
         padding-right: 0;
+        justify-content: center;
     }
 
     .explore-properties {
