@@ -315,6 +315,7 @@
         flex-direction: column;
         height: auto;
         gap: 16px;
+        padding-right: 0px;
     }
 
     .explore-properties,
