@@ -24,41 +24,42 @@
 /* Для планшетов 768px */
 @media (max-width: 768px) {
     .banner {
-        justify-content: center !important; /* Центрируем содержимое */
-        position: relative; /* Для позиционирования крестика */
+        justify-content: center;
+        position: relative;
         padding-top: 10px;
     }
 
     .banner-text {
-        margin-left: 0 !important; /* Убираем левый отступ */
-        padding-right: 30px; /* Отступ от крестика */
-        text-align: center; /* Центр текста */
+        margin-left: 0;
+        padding-right: 30px;
+        text-align: center;
     }
 
     .banner img {
-        position: absolute; /* Крестик поверх контента */
-        right: 16px; /* Позиция справа */
-        top: 50%; /* Вертикальное центрирование */
+        position: absolute;
+        right: 16px;
+        top: 50%;
         transform: translateY(-50%);
+        padding-top: 10px;
     }
 }
 
 /* Для телефонов 320px */
 @media (max-width: 480px) {
     .banner {
-        justify-content: center !important;
-        gap: 8px !important; /* Расстояние между текстом и крестиком */
+        justify-content: center;
+        gap: 8px;
     }
 
     .banner img {
-        position: static !important; /* Отмена абсолютного позиционирования */
-        transform: none !important;
-        width: 16px !important;
-        height: 16px !important;
+        position: static;
+        transform: none;
+        width: 16px;
+        height: 16px;
     }
 
     .banner-text {
-        padding-right: 0 !important;
-        white-space: nowrap !important; /* Текст в одну строку */
+        padding-right: 0;
+        white-space: nowrap;
     }
 }
