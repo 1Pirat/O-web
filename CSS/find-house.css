@@ -128,7 +128,7 @@
     .image1 {
         max-width: 100%;
         order: 1;
-        height: 300px;
+        height: auto;
     }
 
     .section1-block-info {
@@ -152,9 +152,13 @@
     }
 
     .search-rectangle {
-        width: calc(100% - 154px);
+        width: 60%
     }
 
+    .section1-red-rectangle {
+      width: 40%;
+    }
+    
     .decoration,
     .decoration-bottom {
         display: none;
