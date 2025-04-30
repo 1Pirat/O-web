@@ -95,7 +95,48 @@
     margin-left: 4px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+  .locations-block {
+    width: 100%;
+    margin: 0 60px;
+    padding-bottom: 100px;
+  }
+
+  .locations-title {
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
+    margin-bottom: 60px;
+  }
+
+  .locations-h2 {
+    font-size: 42px;
+    line-height: 50.4px;
+    width: auto;
+    margin: 0 0 24px 0;
+  }
+
+  .cards4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+
+  .card4 {
+    width: 300px;
+    height: 125px;
+  }
+
+  .locations-text {
+    font-size: 19px;
+    margin: 28px 0 10px 28px;
+  }
+
+  .view-properties {
+    margin: 0 0 28px 28px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .locations-block {
       width: 100%;
@@ -145,7 +186,55 @@
     }
   }
 
-/* Для телефонов 320px */
+@media screen and (max-width: 480px) {
+  .locations-block {
+    margin: 0 24px;
+    padding-bottom: 70px;
+  }
+
+  .locations-title {
+    margin-bottom: 35px;
+  }
+
+  .locations-h2 {
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 18px;
+  }
+
+  .locations-title-text {
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 0 15px;
+  }
+
+  .cards4 {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 35px;
+  }
+
+  .card4 {
+    height: 115px;
+    max-width: 100%;
+  }
+
+  .locations-text {
+    font-size: 17px;
+    line-height: 23.8px;
+    margin: 22px 0 7px 22px;
+  }
+
+  .view-properties {
+    margin: 0 0 22px 22px;
+  }
+
+  .view-properties-text {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
+
   @media screen and (max-width: 320px) {
     .locations-block {
       margin: 0 20px;
