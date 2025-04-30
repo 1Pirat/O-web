@@ -149,7 +149,46 @@
     height: 42px;
 }
 
-/* Для планшетов 768px */
+@media (max-width: 1024px) {
+    .nav-article {
+      margin: 0 40px;
+      width: auto;
+      max-width: 944px;
+    }
+  
+    .nav-panel {
+      width: auto;
+      gap: 16px;
+    }
+  
+    .nav-panel_1 {
+      gap: 12px;
+      padding-left: 12px;
+    }
+  
+    .properties-button {
+      width: 120px;
+    }
+  
+    .nav-properties {
+      padding: 5px 12px;
+    }
+  
+    .cart-button {
+      width: 90px;
+      padding: 9px 16px;
+    }
+  
+    .find-a-property-button {
+      width: 140px;
+    }
+  
+    .nav-text,
+    .nav-text-white {
+      font-size: 15px;
+    }
+  }
+
 @media (max-width: 768px) {
     .properties-button,
     .contact-button,
@@ -211,8 +250,44 @@
     }
 }
 
-/* Для телефонов 320px */
 @media (max-width: 480px) {
+    .nav {
+      height: 60px;
+    }
+  
+    .nav-article {
+      margin: 0 16px;
+      gap: 12px;
+    }
+  
+    .nav-article img {
+      width: 80px;
+    }
+  
+    .nav-panel {
+      gap: 12px;
+    }
+  
+    .nav-panel_1,
+    .cart-button {
+      display: none;
+    }
+  
+    .nav-panel_2 {
+      gap: 8px;
+    }
+  
+    .find-a-property-button {
+      width: 120px;
+      height: 38px;
+    }
+  
+    .nav-text-white {
+      font-size: 13px;
+    }
+  }
+
+@media (max-width: 320px) {
     .nav {
         height: 56px;
     }
@@ -240,6 +315,10 @@
 
     .find-a-property-button {
         width: 140px;
-        margin-left: 10px; 
+        height: 36px;
+    }
+
+    .nav-text-white {
+        font-size: 12px;
     }
 }
