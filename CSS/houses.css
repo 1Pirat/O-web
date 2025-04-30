@@ -184,7 +184,62 @@
     gap: 24px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+    .houses {
+      height: auto;
+      margin-top: 100px;
+    }
+  
+    .houses-block {
+      margin: 100px 60px 0;
+      gap: 60px;
+      padding-bottom: 120px;
+    }
+  
+    .houses-block-title {
+      width: 100%;
+      max-width: 700px;
+      margin: 0;
+    }
+  
+    .houses-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .houses-block-store {
+      width: 100%;
+    }
+  
+    .cards3 {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+      margin-bottom: 60px;
+    }
+  
+    .card3 {
+      max-height: none;
+    }
+  
+    .card3-info {
+      width: auto;
+      margin: 22px;
+    }
+  
+    .name-text {
+      font-size: 22px;
+      line-height: 30.8px;
+    }
+  
+    .houses-bottom-decoration,
+    .houses-top-decoration {
+      width: 100px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .houses {
         height: auto;
@@ -250,7 +305,65 @@
     }
 }
 
-/* Для телефонов 320px */
+@media screen and (max-width: 480px) {
+    .houses {
+      margin-top: 70px;
+    }
+  
+    .houses-block {
+      margin: 70px 24px 0;
+      gap: 35px;
+      padding-bottom: 70px;
+    }
+  
+    .houses-h2 {
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+  
+    .cards3 {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 35px;
+    }
+  
+    .card3-info {
+      margin: 18px;
+    }
+  
+    .name-text {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  
+    .price-text {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+  
+    .card3-bottom-info {
+      gap: 20px;
+    }
+  
+    .houses-bottom-decoration,
+    .houses-top-decoration {
+      width: 70px;
+    }
+  
+    .houses-bottom-panel {
+      flex-direction: column;
+      height: auto;
+      gap: 16px;
+      padding-right: 0;
+    }
+  
+    .explore-properties,
+    .contact-agent {
+      width: 100%;
+      text-align: center;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .houses {
         margin-top: 60px;
