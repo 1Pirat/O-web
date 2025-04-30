@@ -25,7 +25,27 @@
     gap: 32px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+  .logoipsum {
+    margin: 0 60px;
+    padding-top: 50px;
+  }
+
+  .logoipsum-text {
+    width: 220px;
+    font-size: 17px;
+    line-height: 25.5px;
+  }
+
+  .logoipsum-panel {
+    gap: 28px;
+  }
+
+  .logoipsum-panel img {
+    max-width: 130px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .logoipsum {
       margin: 0 40px;
@@ -52,7 +72,29 @@
     }
   }
 
-/* Для телефонов 320px */
+@media screen and (max-width: 480px) {
+  .logoipsum {
+    margin: 0 24px;
+    padding-top: 36px;
+    gap: 28px;
+  }
+
+  .logoipsum-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .logoipsum-panel {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logoipsum-panel img {
+    max-width: 110px;
+  }
+}
+
 @media screen and (max-width: 320px) {
     .logoipsum {
       margin: 0 20px;
