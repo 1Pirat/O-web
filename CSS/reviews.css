@@ -126,7 +126,77 @@
     margin-top: 27px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+  .reviews {
+    margin: 0px 60px;
+    padding: 120px 0;
+  }
+
+  .reviews-block {
+    padding: 0px 60px;
+    margin-bottom: 70px;
+  }
+
+  .reviews-block-title {
+    font-size: 42px;
+    line-height: 50.4px;
+    margin-bottom: 22px;
+  }
+
+  .reviews-block-text {
+    font-size: 17px;
+    line-height: 25.5px;
+  }
+
+  .cards5 {
+    gap: 24px;
+  }
+
+  .card5 {
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    padding: 28px 24px 24px 24px;
+  }
+
+  .card5-top {
+    padding-bottom: 24px;
+  }
+
+  .stars {
+    margin-bottom: 24px;
+  }
+
+  .stars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .card5-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card5-bottom {
+    gap: 14px;
+  }
+
+  .card5-bottom img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .card5-name {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+
+  .card5-post {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .reviews {
       margin: 0px 40px;
@@ -166,10 +236,9 @@
       font-size: 16px;
       line-height: 24px;
     }
-  }
+}
 
-/* Для телефонов 320px */
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .reviews {
       margin: 0px 20px;
       padding: 60px 0;
@@ -222,4 +291,4 @@
     .card5-bottom {
       gap: 12px;
     }
-  }
+}
