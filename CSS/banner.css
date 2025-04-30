@@ -21,46 +21,85 @@
     margin-left: 548px;
 }
 
-/* Для планшетов 768px */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .banner {
-        justify-content: center;
-        position: relative;
-        padding-top: 10px;
+      margin: 0 32px;
     }
-
+  
     .banner-text {
-        margin-left: 0;
-        padding-right: 30px;
-        text-align: center;
+      margin-left: 320px;
     }
-
-    .banner img {
-        position: absolute;
-        right: 16px;
-        top: 50%;
-        transform: translateY(-50%);
-        padding-top: 10px;
-    }
-}
-
-/* Для телефонов 320px */
-@media (max-width: 480px) {
+  }
+  
+  @media (max-width: 768px) {
     .banner {
-        justify-content: center;
-        gap: 8px;
+      justify-content: center;
+      position: relative;
+      padding-top: 10px;
+      margin: 0 24px;
     }
-
-    .banner img {
-        position: static;
-        transform: none;
-        width: 16px;
-        height: 16px;
-        padding-top: 0;
-    }
-
+  
     .banner-text {
-        padding-right: 0;
-        white-space: nowrap;
+      margin-left: 0;
+      padding-right: 30px;
+      text-align: center;
     }
-}
+  
+    .banner img {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-rectangle {
+      height: 40px;
+    }
+  
+    .banner {
+      justify-content: center;
+      gap: 8px;
+      margin: 0 16px;
+      padding-top: 8px;
+    }
+  
+    .banner img {
+      position: static;
+      transform: none;
+      width: 16px;
+      height: 16px;
+      padding-top: 0;
+    }
+  
+    .banner-text {
+      padding-right: 0;
+      white-space: nowrap;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .banner-rectangle {
+      height: 36px;
+    }
+  
+    .banner {
+      margin: 0 12px;
+      padding-top: 6px;
+      gap: 6px;
+    }
+  
+    .banner-text {
+      font-size: 11px;
+      line-height: 16px;
+    }
+  
+    .banner img {
+      width: 14px;
+      height: 14px;
+    }
+  }
