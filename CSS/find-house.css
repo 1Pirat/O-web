@@ -114,97 +114,171 @@
   	height: 50px;
 }
 
-/* Для планшетов 768px */
-@media screen and (max-width: 768px) {
-    .section1 {
-        flex-direction: column;
-    }
+@media screen and (max-width: 1024px) {
+  .section1-block-info {
+    margin: 120px 60px;
+    padding-right: 30px;
+  }
 
-    .section1-article {
-        max-width: 100%;
-        order: 2;
-    }
+  .section1-h2 {
+    font-size: 48px;
+    line-height: 57.6px;
+  }
 
-    .image1 {
-        max-width: 100%;
-        order: 1;
-        height: auto;
-    }
+  .section1-text_20-30,
+  .section1-text_20-30-white {
+    font-size: 18px;
+    line-height: 27px;
+  }
 
-    .section1-block-info {
-        margin: 60px 40px;
-        padding-right: 0;
-    }
+  .search-rectangle {
+    width: 280px;
+  }
 
-    .section1-h2 {
-        font-size: 42px;
-        line-height: 50px;
-    }
+  .section1-red-rectangle {
+    width: 140px;
+  }
 
-    .section1-text_20-30,
-    .section1-text_20-30-white {
-        font-size: 18px;
-        line-height: 27px;
-    }
+  .decoration {
+    width: 80px;
+  }
 
-    .section1-panel {
-        max-width: 100%;
-    }
-
-    .search-rectangle {
-        width: 60%
-    }
-
-    .section1-red-rectangle {
-      width: 40%;
-    }
-    
-    .decoration,
-    .decoration-bottom {
-        display: none;
-    }
+  .decoration-bottom {
+    width: 80px;
+  }
 }
 
-/* Для телефонов 320px */
+@media screen and (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+  }
+
+  .section1-article {
+    max-width: 100%;
+    order: 2;
+  }
+
+  .image1 {
+    max-width: 100%;
+    height: auto;
+    order: 1;
+  }
+
+  .section1-block-info {
+    margin: 60px 40px;
+    padding-right: 0;
+  }
+
+  .section1-h2 {
+    font-size: 42px;
+    line-height: 50.4px;
+  }
+
+  .section1-text_20-30,
+  .section1-text_20-30-white {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .section1-panel {
+    max-width: 100%;
+  }
+
+  .search-rectangle {
+    width: 60%;
+  }
+
+  .section1-red-rectangle {
+    width: 40%;
+  }
+
+  .decoration,
+  .decoration-bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section1-block-info {
+    margin: 50px 24px;
+    gap: 18px;
+  }
+
+  .find-place-rectangle {
+    width: 150px;
+    height: 26px;
+    padding: 2px 10px;
+  }
+
+  .section1-text_14-21 {
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+
+  .section1-h2 {
+    font-size: 36px;
+    line-height: 43.2px;
+  }
+
+  .section1-text_20-30,
+  .section1-text_20-30-white {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .section1-panel {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .search-rectangle {
+    width: 100%;
+    height: 46px;
+  }
+
+  .section1-red-rectangle {
+    width: 100%;
+    height: 46px;
+  }
+}
+
 @media screen and (max-width: 320px) {
-    .section1-block-info {
-        margin: 40px 20px;
-        gap: 16px;
-    }
-    
-    .find-place-rectangle {
-      width: 140px;
-      height: 24px;
-      padding: 2px 8px;
-    }
-  
-    .section1-text_14-21 {
-      font-size: 12px;
-      line-height: 18px;
-    }
-    .section1-h2 {
-        font-size: 32px;
-        line-height: 38px;
-    }
+  .section1-block-info {
+    margin: 40px 20px;
+    gap: 16px;
+  }
 
-    .section1-text_20-30,
-    .section1-text_20-30-white {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .find-place-rectangle {
+    width: 140px;
+    height: 24px;
+    padding: 2px 8px;
+  }
 
-    .section1-panel {
-        flex-direction: column;
-        gap: 12px;
-    }
+  .section1-text_14-21 {
+    font-size: 12px;
+    line-height: 18px;
+  }
 
-    .search-rectangle {
-        width: 100%;
-        height: 44px;
-    }
+  .section1-h2 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
 
-    .section1-red-rectangle {
-        width: 100%;
-        height: 44px;
-    }
+  .section1-text_20-30,
+  .section1-text_20-30-white {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .section1-panel {
+    gap: 12px;
+  }
+
+  .search-rectangle {
+    height: 44px;
+  }
+
+  .section1-red-rectangle {
+    height: 44px;
+  }
 }
