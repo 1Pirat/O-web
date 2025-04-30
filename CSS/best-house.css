@@ -114,7 +114,57 @@
     width: 16px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+    .best-house {
+      margin: 100px 60px 0;
+      gap: 60px;
+    }
+  
+    .image2 {
+      max-width: 500px;
+    }
+  
+    .best-house-block {
+      max-width: 400px;
+    }
+  
+    .best-house-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  
+    .best-house_18-27 {
+      font-size: 17px;
+      line-height: 25.5px;
+      padding-right: 40px;
+      margin-bottom: 20px;
+    }
+  
+    .bottom-panel {
+      width: 100%;
+      padding-right: 0;
+      gap: 20px;
+    }
+  
+    .explore-properties {
+      width: 180px;
+      height: 48px;
+      padding: 10px 20px 12px;
+    }
+  
+    .contact-agent {
+      width: 120px;
+      height: 38px;
+    }
+  
+    .best-house_16-24 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .best-house {
         flex-direction: column-reverse;
@@ -160,7 +210,6 @@
     }
 }
 
-/* Для телефонов 320px */
 @media screen and (max-width: 320px) {
     .best-house {
         margin: 60px 20px 0;
