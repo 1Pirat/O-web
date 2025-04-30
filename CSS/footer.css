@@ -247,7 +247,65 @@
     margin: 0 0 0 12px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+  .footer-top {
+      height: auto;
+      margin: 56px 0px 60px 0px;
+  }
+
+  .footer-top-block {
+      gap: 80px;
+      margin: 0px 60px;
+  }
+
+  .footer-left {
+      gap: 25px;
+  }
+
+  .footer-logo {
+      width: 120px;
+  }
+
+  .column1 {
+      margin-left: 160px;
+      padding-right: 60px;
+  }
+
+  .column2 {
+      padding-right: 40px;
+  }
+
+  .column3 {
+      padding-right: 40px;
+  }
+
+  .footer-right {
+      min-width: 300px;
+  }
+
+  .email {
+      width: 200px;
+  }
+
+  .subscribe {
+      width: 110px;
+  }
+
+  .footer-bottom-block {
+      width: auto;
+      margin: 24px 60px;
+  }
+
+  .footer-bottom-socials {
+      gap: 16px;
+  }
+
+  .footer-bottom-socials img {
+      width: 24px;
+      height: 24px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer-top {
     height: auto;
@@ -303,7 +361,6 @@
   }
 }
 
-/* Для телефонов 320px */
 @media screen and (max-width: 320px) {
   .footer-top {
     margin: 32px 0px;
@@ -315,6 +372,7 @@
   }
 
   .footer-left {
+    align-items: center;
     flex-direction: column;
     gap: 24px;
   }
