@@ -117,7 +117,40 @@
     margin-bottom: 17px;
 }
 
-/* Для планшетов 768px */
+@media screen and (max-width: 1024px) {
+    .how-it-works {
+      margin: 100px 60px 0;
+      gap: 50px;
+    }
+  
+    .how-it-works-block {
+      width: 100%;
+      max-width: 700px;
+    }
+  
+    .how-it-works-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: auto;
+    }
+  
+    .cards1 {
+      gap: 24px;
+      width: 100%;
+    }
+  
+    .card1 {
+      width: calc(33.33% - 16px);
+      min-width: 280px;
+    }
+  
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+      width: auto;
+      margin: 0 30px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .how-it-works {
         margin: 80px 40px 0;
@@ -167,8 +200,62 @@
         line-height: 28px;
     }
 }
+@media screen and (max-width: 480px) {
+    .how-it-works {
+      margin: 70px 24px 0;
+      gap: 35px;
+    }
+  
+    .how-it-works-block {
+      gap: 18px;
+    }
+  
+    .how-it-works-h2 {
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+  
+    .how-it-works-text_18-27 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+  
+    .cards1 {
+      gap: 24px;
+    }
+  
+    .card1 {
+      padding: 35px 18px;
+    }
+  
+    .mini-rectangle {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 20px;
+    }
+  
+    .house,
+    .receipt,
+    .key {
+      font-size: 28px;
+      line-height: 42px;
+      width: 28px;
+    }
+  
+    .how-it-works-text_24-33 {
+      font-size: 19px;
+      line-height: 26.6px;
+      margin-bottom: 14px;
+    }
+  
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+      font-size: 15px;
+      line-height: 22.5px;
+      padding: 0 18px;
+    }
+  }
 
-/* Для телефонов 320px */
 @media screen and (max-width: 320px) {
     .how-it-works {
         margin: 60px 20px 0;
