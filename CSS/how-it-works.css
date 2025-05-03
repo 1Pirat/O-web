@@ -1,0 +1,311 @@
+.house, .receipt, .key {
+    position: relative;
+    font-size: 32px;
+    line-height: 48px;
+    width: 32px;
+    font-family: 'Material Icons';
+    color: #CF6F49;
+    text-align: center;
+}
+
+.how-it-works {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 62px;
+    margin: 122px 80px 0px;
+}
+
+.how-it-works-block {
+    width: 768px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 21px;
+    padding: 0 7px;
+}
+
+.how-it-works-h2 {
+    font-weight: 700;
+    width: 293px;
+    position: relative;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    display: inline-block;
+}
+
+.how-it-works-text_18-27 {
+    width: auto;
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    display: inline-block;
+}
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  	width: 405px;
+  	position: relative;
+  	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  	border-radius: 16px;
+  	background-color: #fff;
+  	border: 1px solid #e7e8e3;
+  	box-sizing: border-box;
+  	height: 291px;
+}
+
+.mini-rectangle {
+  	width: 48px;
+  	position: relative;
+  	border-radius: 8px;
+  	background-color: #fae8e1;
+  	height: 48px;
+    padding: 0px 8px;
+    margin-bottom: 24px;
+}
+
+.how-it-works-text_16-24 {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    display: inline-block;
+    height: 72px;
+    margin: 0px 40px;
+}
+
+.how-it-works-text-1_16-24 {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    display: inline-block;
+    height: 72px;
+    width: 338px;
+}
+
+.how-it-works-text_24-33 {
+    width: auto;
+    font-weight: 700;
+    position: relative;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+    .how-it-works {
+      margin: 100px 60px 0;
+      gap: 50px;
+    }
+  
+    .how-it-works-block {
+      width: 100%;
+      max-width: 700px;
+    }
+  
+    .how-it-works-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: auto;
+    }
+  
+    .cards1 {
+      gap: 24px;
+      width: 100%;
+    }
+  
+    .card1 {
+      width: calc(33.33% - 16px);
+      min-width: 280px;
+    }
+  
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+      width: auto;
+      margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .how-it-works {
+        margin: 80px 40px 0;
+        gap: 40px;
+    }
+
+    .how-it-works-block {
+        width: 100%;
+        max-width: 600px;
+        padding: 0;
+    }
+
+    .how-it-works-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+    }
+
+    .how-it-works-text_18-27 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 20px;
+    }
+
+    .cards1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .how-it-works-text_24-33 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .how-it-works {
+      margin: 70px 24px 0;
+      gap: 35px;
+    }
+  
+    .how-it-works-block {
+      gap: 18px;
+    }
+  
+    .how-it-works-h2 {
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+  
+    .how-it-works-text_18-27 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+  
+    .cards1 {
+      gap: 24px;
+    }
+  
+    .card1 {
+      padding: 35px 18px;
+    }
+  
+    .mini-rectangle {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 20px;
+    }
+  
+    .house,
+    .receipt,
+    .key {
+      font-size: 28px;
+      line-height: 42px;
+      width: 28px;
+    }
+  
+    .how-it-works-text_24-33 {
+      font-size: 19px;
+      line-height: 26.6px;
+      margin-bottom: 14px;
+    }
+  
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+      font-size: 15px;
+      line-height: 22.5px;
+      padding: 0 18px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .how-it-works {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .how-it-works-block {
+        gap: 16px;
+    }
+
+    .how-it-works-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    .how-it-works-text_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cards1 {
+        gap: 20px;
+    }
+
+    .card1 {
+        padding: 30px 16px;
+    }
+
+    .mini-rectangle {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+
+    .house, .receipt, .key {
+        font-size: 24px;
+        line-height: 36px;
+        width: 24px;
+    }
+
+    .how-it-works-text_24-33 {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-bottom: 12px;
+    }
+
+    .how-it-works-text-1_16-24,
+    .how-it-works-text_16-24 {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0 16px;
+    }
+}

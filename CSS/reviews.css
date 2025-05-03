@@ -1,0 +1,294 @@
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 80px;
+    padding: 156px 0;
+}
+
+.reviews-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 82px;
+    margin-bottom: 80px;
+}
+
+.reviews-block-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    display: inline-block;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.reviews-block-text {
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Roboto;
+    color: #65665C;
+    text-align: center;
+    display: inline-block;
+}
+
+.cards5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.card5 {
+    display: flex;
+    flex-direction: column;
+  	position: relative;
+  	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  	border-radius: 16px;
+  	background-color: #fff;
+  	border: 1px solid #e7e8e3;
+  	box-sizing: border-box;
+    width: 405px;
+    height: 325px;
+    padding: 32.86px 33px 0px 32px;
+}
+
+.card5-top {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 28.86px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 27.14px;
+}
+
+.card5-text {
+  	position: relative;
+  	font-size: 18px;
+  	line-height: 27px;
+  	font-family: Roboto;
+  	color: #2a2c1f;
+  	text-align: left;
+  	display: inline-block;
+}
+
+.card5-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.card5-person-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card5-sarah-tarleton-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.card5-name {
+  	font-weight: 700;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 24px;
+  	font-family: Roboto;
+  	color: #2a2c1f;
+  	text-align: left;
+  	display: inline-block;
+    margin: 0;
+}
+
+.card5-post {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #2a2c1f;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+}
+
+.sarah-tarleton {
+    margin-top: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews {
+    margin: 0px 60px;
+    padding: 120px 0;
+  }
+
+  .reviews-block {
+    padding: 0px 60px;
+    margin-bottom: 70px;
+  }
+
+  .reviews-block-title {
+    font-size: 42px;
+    line-height: 50.4px;
+    margin-bottom: 22px;
+  }
+
+  .reviews-block-text {
+    font-size: 17px;
+    line-height: 25.5px;
+  }
+
+  .cards5 {
+    gap: 24px;
+  }
+
+  .card5 {
+    width: 300px;
+    height: auto;
+    min-height: 300px;
+    padding: 28px 24px 24px 24px;
+  }
+
+  .card5-top {
+    padding-bottom: 24px;
+  }
+
+  .stars {
+    margin-bottom: 24px;
+  }
+
+  .stars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .card5-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card5-bottom {
+    gap: 14px;
+  }
+
+  .card5-bottom img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .card5-name {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+
+  .card5-post {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .reviews {
+      margin: 0px 40px;
+      padding: 100px 0;
+    }
+  
+    .reviews-block {
+      padding: 0px 40px;
+      margin-bottom: 60px;
+    }
+  
+    .reviews-block-title {
+      font-size: 36px;
+      line-height: 43.2px;
+      margin-bottom: 20px;
+    }
+  
+    .reviews-block-text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .cards5 {
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .card5 {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      min-height: 300px;
+      padding: 24px;
+    }
+  
+    .card5-text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .reviews {
+      margin: 0px 20px;
+      padding: 60px 0;
+    }
+  
+    .reviews-block {
+      padding: 0px 20px;
+      margin-bottom: 40px;
+    }
+  
+    .reviews-block-title {
+      font-size: 28px;
+      line-height: 33.6px;
+      margin-bottom: 16px;
+    }
+  
+    .reviews-block-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .cards5 {
+      gap: 20px;
+    }
+  
+    .card5 {
+      padding: 20px;
+      min-height: 280px;
+    }
+  
+    .card5-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .card5-name {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .card5-post {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    .stars {
+      margin-bottom: 20px;
+    }
+  
+    .card5-bottom {
+      gap: 12px;
+    }
+}

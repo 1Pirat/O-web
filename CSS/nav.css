@@ -1,0 +1,324 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 74px;
+}
+
+.nav-text {
+    font-family: Roboto;
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-text-white {
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+}
+
+.nav-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 80px;
+    width: 1280px;
+    height: 42px;
+}
+
+.nav-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 774px;
+    gap: 8px;
+}
+
+.nav-panel_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    padding-left: 16px;
+}
+
+.home-button {
+    display: flex;
+    width: 45px;
+    height: 24px;
+}
+
+.properties-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 40px;
+}
+
+.nav-properties {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 16px;
+}
+
+.expand-more, .search {
+    width: 20px;
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Material Icons';
+    color: #222;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+}
+
+.about-button {
+    display: flex;
+}
+
+.contact-button {
+    display: flex;
+    margin-left: 18px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 5px 16px 5px 21px;
+}
+
+.nav-panel_2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cart-button {
+    width: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #e7e8e3;
+    box-sizing: border-box;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 9px 21px;
+    gap: 4px;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.shopping-bag {
+    width: 20px;
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Material Icons';
+    color: #2a2c1f;
+    text-align: center;
+    display: inline-block;
+}
+
+.find-a-property-button {
+    width: 159px;
+    border-radius: 6px;
+    background-color: #cf6f49;
+    border: 1px solid #cf6f49;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    height: 42px;
+}
+
+@media (max-width: 1024px) {
+    .nav-article {
+      margin: 0 40px;
+      width: auto;
+      max-width: 944px;
+    }
+  
+    .nav-panel {
+      width: auto;
+      gap: 16px;
+    }
+  
+    .nav-panel_1 {
+      gap: 12px;
+      padding-left: 12px;
+    }
+  
+    .properties-button {
+      width: 120px;
+    }
+  
+    .nav-properties {
+      padding: 5px 12px;
+    }
+  
+    .cart-button {
+      width: 90px;
+      padding: 9px 16px;
+    }
+  
+    .find-a-property-button {
+      width: 140px;
+    }
+  
+    .nav-text,
+    .nav-text-white {
+      font-size: 15px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .properties-button,
+    .contact-button,
+    .search-button,
+    .nav-properties,
+    .nav-search {
+        display: none;
+    }
+
+    .nav-article {
+        margin: 0 24px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .nav-panel {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        gap: 24px;
+        width: auto;
+    }
+
+    .nav-panel_1 {
+        display: flex;
+        gap: 24px;
+        padding-left: 0 ;
+        order: 1;
+    }
+
+    .nav-panel_2 {
+        display: flex;
+        gap: 12px;
+        order: 2;
+    }
+
+    .nav-text, 
+    .nav-text-white {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .home-button,
+    .about-button {
+        min-width: auto;
+        padding: 0 8px;
+    }
+
+    .cart-button {
+        width: auto;
+        padding: 0 12px;
+    }
+
+    .find-a-property-button {
+        width: auto;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+      height: 60px;
+    }
+  
+    .nav-article {
+      margin: 0 16px;
+      gap: 12px;
+    }
+  
+    .nav-article img {
+      width: 80px;
+    }
+  
+    .nav-panel {
+      gap: 12px;
+    }
+  
+    .nav-panel_1,
+    .cart-button {
+      display: none;
+    }
+  
+    .nav-panel_2 {
+      gap: 8px;
+    }
+  
+    .find-a-property-button {
+      width: 120px;
+      height: 38px;
+    }
+  
+    .nav-text-white {
+      font-size: 13px;
+    }
+  }
+
+@media (max-width: 320px) {
+    .nav {
+        height: 56px;
+    }
+
+    .nav-article {
+        gap: 20px;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+
+    .nav-article img {
+        width: 70px;
+        margin-right: auto;
+    }
+
+    .nav-panel {
+        margin-left: auto;
+        flex-grow: 0;
+    }
+
+    .nav-panel_1,
+    .cart-button {
+        display: none;
+    }
+
+    .find-a-property-button {
+        width: 140px;
+        height: 36px;
+    }
+
+    .nav-text-white {
+        font-size: 12px;
+    }
+}

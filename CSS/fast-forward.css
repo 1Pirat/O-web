@@ -1,0 +1,374 @@
+.fast-forward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 128px 80px 0px;
+}
+
+.image3 {max-width: 600px;}
+
+.fast-forward-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-and-easy {
+    width: 127px;
+    position: relative;
+    border-radius: 32px;
+    background-color: #e7e8e3;
+    height: 29px;
+    padding: 3px 12px;
+    margin-bottom: 21px;
+}
+
+.fast-forward_14-21 {
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Roboto;
+    color: #2a2c1f;
+    text-align: left;
+    display: inline-block;
+}
+
+.fast-forward-h2 {
+    font-weight: 700;
+    width: 453px;
+    position: relative;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: left;
+    display: inline-block;
+    margin: 0 115px 30px 0;
+    white-space: nowrap;
+}
+
+.fast-forward_18-27 {
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Roboto;
+    color: #65665C;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 28.91px;
+}
+
+.fast-forward_16-24-1 {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #65665C;
+    text-align: left;
+    display: inline-block;
+    width: 245px;
+    margin: 0 43px 3px 0;
+}
+
+.fast-forward_16-24-2 {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #65665C;
+    text-align: left;
+    display: inline-block;
+    margin: 0 7px 21.93px 0;
+}
+
+.fast-forward_20-28 {
+    font-weight: 700;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 8px 0;
+    margin-bottom: 20.2px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-rectangle2 {
+    width: 48px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #fae8e1;
+    height: 48px;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+}
+
+.payments, .description {
+  	width: 32px;
+  	position: relative;
+  	font-size: 32px;
+  	line-height: 48px;
+  	font-family: 'Material Icons';
+  	color: #cf6f49;
+  	text-align: left;
+  	display: inline-block;
+}
+
+.bottom-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+    height: 50px;
+    gap: 24px;
+    padding-right: 254px;
+}
+
+.explore-properties {
+    width: 192px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #e7e8e3;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 25px 14px;
+}
+
+.contact-agent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+    gap: 9px;
+    padding: 7.59px 0px 9px 4px;
+    white-space: nowrap;
+}
+
+.chevron-right {
+    position: relative;
+    color: #2A2C1F;
+    line-height: 24px;
+    font-family: 'Material Icons';
+    text-align: center;
+    display: inline-block;
+    width: 16px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .fast-forward {
+      margin: 100px 60px 0;
+      gap: 60px;
+    }
+  
+    .image3 {
+      max-width: 500px;
+    }
+  
+    .fast-forward-block {
+      max-width: 500px;
+    }
+  
+    .fast-forward-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: 100%;
+      margin: 0 0 26px 0;
+      white-space: normal;
+    }
+  
+    .fast-forward_18-27 {
+      font-size: 17px;
+      line-height: 25.5px;
+      margin-bottom: 26px;
+    }
+  
+    .cards2 {
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+  
+    .fast-forward_20-28 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  
+    .fast-forward_16-24-1,
+    .fast-forward_16-24-2 {
+      width: auto;
+      margin: 0 0 18px 0;
+      font-size: 15px;
+      line-height: 22px;
+    }
+  
+    .bottom-panel {
+      width: 100%;
+      padding-right: 0;
+    }
+  
+    .explore-properties {
+      width: 180px;
+    }
+  
+    .contact-agent {
+      width: 125px;
+    }
+  
+    .mini-rectangle2 {
+      width: 44px;
+      height: 44px;
+    }
+  
+    .payments,
+    .description {
+      font-size: 28px;
+      line-height: 42px;
+      width: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fast-forward {
+        flex-direction: column;
+        margin: 80px 40px 0;
+        gap: 40px;
+    }
+
+    .fast-forward-block {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .image3 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fast-forward-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+        margin: 0 0 24px 0;
+        white-space: normal;
+    }
+
+    .fast-forward_18-27 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    .cards2 {
+        gap: 20px;
+        margin-bottom: 24px;
+    }
+
+    .fast-forward_16-24-1,
+    .fast-forward_16-24-2 {
+        width: auto;
+        margin: 0 0 16px 0;
+    }
+
+    .bottom-panel {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact-agent {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fast-forward {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .quick-and-easy {
+        width: auto;
+        max-width: 127px;
+        margin-bottom: 16px;
+    }
+
+    .fast-forward-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+        margin-bottom: 16px;
+    }
+
+    .fast-forward_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cards2 {
+        flex-direction: column;
+        gap: 24px;
+        padding: 0;
+    }
+
+    .card2 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .mini-rectangle2 {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 12px;
+    }
+
+    .payments, .description {
+        font-size: 24px;
+        line-height: 36px;
+        width: 24px;
+    }
+
+    .fast-forward_20-28 {
+        font-size: 18px;
+        line-height: 25.2px;
+        margin-bottom: 12px;
+    }
+
+    .fast-forward_16-24-1,
+    .fast-forward_16-24-2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bottom-panel {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .explore-properties {
+        width: 100%;
+    }
+
+    .contact-agent {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+    }
+}

@@ -1,0 +1,257 @@
+.best-house {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 128px 80px 0px;
+}
+
+.image2 {max-width: 600px;}
+
+.best-house-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.comfort-first {
+    width: 107px;
+    position: relative;
+    border-radius: 32px;
+    background-color: #e7e8e3;
+    height: 29px;
+    padding: 4px 12px;
+    margin-bottom: 21px;
+}
+
+.best-house-h2 {
+    font-weight: 700;
+    width: 453px;
+    position: relative;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: Roboto;
+    color: #2A2C1F;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 28px;
+}
+
+.best-house_14-21 {
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Roboto;
+    color: #2a2c1f;
+    text-align: left;
+    display: inline-block;
+}
+
+.best-house_16-24 {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #2a2c1f;
+    text-align: left;
+    display: inline-block;
+}
+
+.best-house_18-27 {
+    position: relative;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Roboto;
+    color: #65665C;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 21.41px;
+    padding-right: 80px;
+}
+
+.bottom-panel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+    height: 50px;
+    gap: 24px;
+    padding-right: 254px;
+}
+
+.explore-properties {
+    width: 192px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #e7e8e3;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 25px 14px;
+}
+
+.contact-agent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 130px;
+    height: 40px;
+    gap: 0px;
+    padding: 7.59px 0px 9px 4px;
+    white-space: nowrap;
+}
+
+.chevron-right {
+    position: relative;
+    color: #2A2C1F;
+    line-height: 24px;
+    font-family: 'Material Icons';
+    text-align: center;
+    display: inline-block;
+    width: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .best-house {
+      margin: 100px 60px 0;
+      gap: 60px;
+    }
+  
+    .image2 {
+      max-width: 500px;
+    }
+  
+    .best-house-block {
+      max-width: 400px;
+    }
+  
+    .best-house-h2 {
+      font-size: 42px;
+      line-height: 50.4px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  
+    .best-house_18-27 {
+      font-size: 17px;
+      line-height: 25.5px;
+      padding-right: 40px;
+      margin-bottom: 20px;
+    }
+  
+    .bottom-panel {
+      width: 100%;
+      padding-right: 0;
+      gap: 20px;
+    }
+  
+    .explore-properties {
+      width: 180px;
+      height: 48px;
+      padding: 10px 20px 12px;
+    }
+  
+    .contact-agent {
+      width: 120px;
+      height: 38px;
+    }
+  
+    .best-house_16-24 {
+      font-size: 15px;
+      line-height: 22.5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-house {
+        flex-direction: column-reverse;
+        margin: 80px 40px 0;
+        gap: 40px;
+    }
+
+    .best-house-block {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .image2 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .best-house-h2 {
+        font-size: 36px;
+        line-height: 43.2px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .best-house_18-27 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .bottom-panel {
+        width: 100%;
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .explore-properties {
+        width: 240px;
+    }
+
+    .contact-agent {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .best-house {
+        margin: 60px 20px 0;
+        gap: 30px;
+    }
+
+    .comfort-first {
+        width: auto;
+        max-width: 107px;
+        margin-bottom: 16px;
+    }
+
+    .best-house-h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+        margin-bottom: 16px;
+    }
+
+    .best-house_18-27 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .bottom-panel {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .explore-properties {
+        width: 100%;
+    }
+
+    .contact-agent {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 0;
+    }
+
+    .best-house_16-24 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
